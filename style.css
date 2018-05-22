@@ -1,0 +1,160 @@
+/*
+Theme Name: Genesis Child Theme
+Theme URI: http://example.com
+Description: This is a blank child theme for the Genesis Framework.   
+Author: Marquis Brand
+Author URI: http://example.com
+Template: genesis  
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+
+
+/**************************
+GLOBAL
+*************************/
+
+
+.entry-header {
+    display: none;
+}
+
+
+/**************************
+HEADER AREA
+*************************/
+
+.site-header{
+    min-height: 80px!important;     
+}
+
+
+.site-title{
+    padding-left: 25px;
+}
+
+
+/*LOGO*/
+.header-image .site-title > a {
+    background: url(images/traveler_logo.png) no-repeat left!important;
+    float: left;
+    min-height: 80px!important;
+    width: 100%;
+}
+
+
+/**************************
+NAVIGATION
+*************************/
+
+NAVIGATION BUTTON
+/*.nav-bttn{
+    background-color: #333;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eaeaea;
+}*/
+
+.nav-bttn:hover{
+    background-color: yellow;
+    color: #000;
+    font-weight: 600;
+}
+
+nav.nav-header {
+    margin-right: 15px!important;
+}
+
+nav.nav-header a {
+    font-weight: normal;
+   }
+
+.genesis-nav-menu a {
+    color: #333!important;
+    font-weight: 300!important;
+    text-decoration: none!important;
+    padding: 2em 1.25em!important;
+    display: block;
+    font-family: helvetica, 'geomanist-regular', sans-serif;
+    font-size: 14px;
+}
+
+ .genesis-nav-menu a:hover, .genesis-nav-menu a:focus, .genesis-nav-menu .current-menu-item > a,
+ .genesis-nav-menu .sub-menu .current-menu-item > a:hover, 
+ .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
+    color: #333!important;
+    font-weight: 800;
+    text-decoration: none!important;
+}
+
+
+
+/**************************
+HERO SLIDER - HOMEPAGE
+*************************/
+.inner-hero-1, .inner-hero-2, .inner-hero-3{
+    background-color: #333;
+}
+
+
+.hero-1, .hero-2, .hero-3{
+    opacity: .6;
+}
+
+/*box section*/
+.box-section{
+    background-color:#333;
+}
+
+.box-callout{
+    color:#fff;
+    border-right: 2px solid #eee;
+    text-align:center;
+    padding:25px;
+}
+
+/**************************
+CALLOUT WIDGET - HOMEPAGE
+*************************/
+
+
+.hero-btcallout{
+    color:#fff;
+    text-align: center;
+}
+
+.hero-btcol {
+    padding-top: 50px;
+    border-right: 2px solid #eee;
+    padding-bottom: 50px;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    background-color:#333;
+   font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-btcol a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-btcol:hover{
+  background:#205493;
+  cursor: pointer;
+}
+
+
+.callout-title{
+ font-family: 'Roboto', sans-serif;
+ font-size: 28px;
+ font-weight: 800;
+ color: #eee;
+}
